@@ -48,7 +48,7 @@ const config = {
             label: 'Report',
           },
           {
-            href: 'https://github.com/ctseng-uw/766-Project',
+            href: 'https://github.com/ctseng-uw/766-Project-Public',
             label: 'GitHub',
             position: 'right',
           },
