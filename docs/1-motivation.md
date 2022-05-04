@@ -1,87 +1,16 @@
 # Motivation
+Chinese calligraphy has a history of thousands of years. Good handwriting or calligraphy is often regarded as a kind of cultural expression and also has visual art values. Some calligraphists’ works are so valuable that their works are worth millions of dollars. 
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Below is one famous work "兰亭集序" from a famous calligraphist 王羲之. His handwriting style is natural and unrestrained, which is why his handwriting has been valued for years.
 
-## Getting Started
+<p align="center">
+  <img style={{width: 500}} src={require('./img/lanTingJiXu.png').default} />
+  <figcaption>The calligraphy work "兰亭集序" from 王羲之</figcaption>
+</p>
 
-Get started by **creating a new site**.
+Many people are expecting that we can create a printable font based on their handwriting style. However, we only have a limited number of their works and there are more than 80,000 characters in Chinese. It is far from enough to create a font. Based on the description above, creating such a mapping model is both important and has many practical uses.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Most kids in China have at least a couple of calligraphy classes in school. At that time, students who have good handwriting may receive many compliments from the teachers. We are not the ones who have the best handwriting, and doing this project is kind of making our childhood dreams come true :blush:
 
-### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
-
-# Tutorial Intro
-
-Let's discover **Docusaurus in less than 5 minutes**.
-
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+The problem we want to solve is transferring Chinese handwriting fonts. We are expecting to transfer an existing font to a more personalized font, based on some pictures from the personalized font.
