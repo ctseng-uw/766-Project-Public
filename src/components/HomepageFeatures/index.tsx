@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    imgSrc: "",
+    title: 'Motivation',
+    imgSrc: require('@site/static/img/yen.jpeg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        It will be cool to have a personalized handwriting font, and since there are more than 80,000 characters in Chinese, it is not efficient to write down each character to create a font. We would like to find the way that can utilized limited characters to transfer the style to other characters.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imgSrc: "",
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
+    title: 'Approach',
     imgSrc: require('@site/static/img/result.gif').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        We consider the method of style transfer, and implement different GANs that are notable in the area. Then, we modified the existing approach to improve the performance.
+      </>
+    ),
+  },
+  {
+    title: 'Preivew of Our Result',
+    imgSrc: require('@site/static/img/preview.png').default,
+    description: (
+      <>
+        Our approach is good at handwriting-style font, which is an improvement from the original version. There are more results with different fonts in our report.
       </>
     ),
   },
