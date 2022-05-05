@@ -14,8 +14,13 @@
   --ifm-color-primary-lighter: 	#fb868b;
   --ifm-color-primary-lightest: 	#fdc2c5;
   --ifm-code-font-size: 95%;
+  --primary-bg: #8e0000;
 }
 
+[data-theme='dark'] {
+  --ifm-color-primary: #ee494f;
+  --primary-bg: #730d0d;
+}
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 
 
