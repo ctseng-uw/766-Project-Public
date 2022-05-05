@@ -3,7 +3,7 @@
 ## Animation
 
 <p align="center">
-  <img style={{width: 200}} src={require('@site/static/img/result.gif').default} />
+  <img style={{height: 200}} src={require('@site/static/img/result2.gif').default} />
   <figcaption>If you haven't seen this animation in our home page, this is the style transfer in action.</figcaption>
 </p>
 
